@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Einfaches Formular</title>
+    </head>
+    <body>
+        <h1>Anmeldung</h1>
+        <p>Bitte füllen Sie die nachfolgenden Eingabefelder aus: </p>
+        <form action="formular_auswertung-2.php" method="POST">
+            <p>Interessen:
+                <input type="checkbox" name="interesse[]" value="Kultur"> Kultur
+                <input type="checkbox" name="interesse[]" value="Musik"> Musik
+                <input type="checkbox" name="interesse[]" value="Sport"> Sport
+                <input type="checkbox" name="interesse[]" value="Natur"> Natur
+            </p>
+            <p>Zahlungsart:
+                <input type="radio" name="zahlung" value="Bar"> Bar
+                <input type="radio" name="zahlung" value="Scheck"> Scheck
+                <input type="radio" name="zahlung" value="Ueberweisung"> Ueberweisung
+            </p>
+            <p><input type="submit" name="absenden" value="Abschicken">
+                 <input type="reset" value="Zurücksetzen"></p>
+        </form>
+    </body>
+</html>

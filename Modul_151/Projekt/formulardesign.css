@@ -1,0 +1,91 @@
+body
+{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    
+}
+
+label
+{
+    display: inline-block;
+    width: 9em;
+    text-align: left;
+}
+
+.eingabe
+{
+    width: 14em;
+    border: .05em solid gray;
+    border-radius: 0.6em;
+    background-color: lightgrey;
+}
+
+.eingabe1
+{
+    width: 5em;
+    border: none;
+    color: red;
+}
+
+.eingabe2
+{
+    width: 14em;
+    border: .05em solid gray;
+    border-radius: 0.6em;
+    background-color: lightgrey;
+}
+
+.flex-box
+{
+    align-self: center;
+    padding: 1em;
+    display: flex;
+    max-width: 44em;
+}
+
+.flex-box1
+{
+    width: 50%;
+    flex-direction: column;
+}
+
+.buttons
+{
+    border: 0.2em ridge green;
+    border-radius: 0.5em;
+    background-color: lightgreen;
+    margin: .3em;
+}
+
+.buttons:hover
+{
+    background-color: green;
+    color: white;
+}
+
+.buttonr
+{
+    border: 0.2em ridge red;
+    border-radius: 0.5em;
+    background-color: lightcoral;
+    margin: .3em;
+}
+
+.buttonr:hover
+{
+    background-color: red;
+    color: white;
+}
+
+button
+{
+    border: 0.2em ridge blue;
+    border-radius: 0.5em;
+    background-color: lightblue;
+    margin: .5em;
+}
+
+button:hover
+{
+    background-color: blue;
+    color: white;
+}

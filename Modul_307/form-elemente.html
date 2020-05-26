@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Einfaches Formular</title>
+    </head>
+    <body>
+        <h1>Formular-Elemente</h1>
+        <form action="form-elemente.php" method="get">
+            <p>E-Mail: <input type="email" name="E-Mail"></p>
+            <p>Passwort: <input type="password" name="Passwort"></p>
+            <p>Datum: <input type="date" name="Datum"></p>
+            <p>Farben: <br>
+                <input type="checkbox" name="gelb"> Gelb
+                <input type="checkbox" name="blau"> Blau
+                <input type="checkbox" name="gruen"> Gruen
+                <input type="checkbox" name="rot" value="#f00"> Rot</p>
+            <p>Ampel: <br>
+                <input type="radio" name="ampel" value="Gruen"> Gruen
+                <input type="radio" name="ampel" value="Gelb"> Gelb
+                <input type="radio" name="ampel" value="Rot"> Rot </p>
+            <p>Speisen: <br>
+                <input type="checkbox" name="speisen[]"> Pizza
+                <input type="checkbox" name="speisen[]"> Pasta
+                <input type="checkbox" name="speisen[]" value="Salat"> Salat </p> 
+            <p> Eis: <select name="eissorte">
+                    <option></option>
+                    <option>Schoko</option>
+                    <option>Vanille</option>
+                    <option>Stracciatella</option>
+            </select></p>
+            <p> Gemuese: <select name="gemuese">
+                <option></option>
+                <option value="Sorte-1">Bohnen</option>
+                <option value="Sorte-2">Erbsen</option>
+                <option value="Sorte-3">Blumenkohl</option>
+            </select></p>
+            <p> Obst: <select name="obst[]" multiple>
+                <option>Apfel</option>
+                <option>Birne</option>
+                <option>Pflaume</option>
+                <option>Orange</option>
+            </select></p>
+            <p>Nachricht:<br><textarea name="memo"></textarea></p>
+            <p><input type="submit" value="abschicken" name="senden">
+                 <input type="reset" value="zurücksetzen"></p>
+        </form>
+    </body>
+</html>

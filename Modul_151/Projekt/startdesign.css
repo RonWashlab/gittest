@@ -1,0 +1,61 @@
+body
+{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    background-image: url("../Projekt/Bilder/library.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+label
+{
+    margin-left: 2em;
+}
+
+.input
+{
+    width: 14em;
+    border: .05em solid gray;
+    border-radius: 0.6em;
+    background-color: lightgrey;
+}
+
+.flex-container
+{
+    display: flex;
+    justify-content: center;
+}
+
+.main
+{
+    width: 23em;
+    height: 43em;
+    background-color: grey;
+
+}
+
+h1
+{
+    text-align: center;
+}
+
+h2
+{
+    text-align: left;
+    margin-left: 1em;
+}
+
+.button1
+{
+    margin-left: 2em;
+    margin-top: 1em;
+    border: .1em solid blue;
+    background-color: lightblue;
+    border-radius: .5em;
+}
+
+.button1:hover
+{
+    background-color: blue;
+    color: white;
+}
